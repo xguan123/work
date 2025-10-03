@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/towork.dir/src/main.cpp.o CMakeFiles/towork.dir/src/fun.cpp.o -o towork 
