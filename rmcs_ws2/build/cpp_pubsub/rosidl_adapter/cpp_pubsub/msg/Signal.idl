@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cpp_pubsub/msg/Signal.msg
+// generated code does not contain a copyright notice
+
+
+module cpp_pubsub {
+  module msg {
+    struct Signal {
+      double sine_wave;
+
+      double square_wave;
+    };
+  };
+};

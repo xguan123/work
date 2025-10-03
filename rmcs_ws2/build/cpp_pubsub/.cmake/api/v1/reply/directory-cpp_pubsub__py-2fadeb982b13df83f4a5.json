@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "cpp_pubsub__py",
+		"source" : "/workspaces/ros2-develop/rmcs_ws2/build/cpp_pubsub/cpp_pubsub__py"
+	}
+}

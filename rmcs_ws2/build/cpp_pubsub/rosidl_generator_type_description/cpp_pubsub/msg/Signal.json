@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "cpp_pubsub/msg/Signal",
+      "fields": [
+        {
+          "name": "sine_wave",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "square_wave",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "cpp_pubsub/msg/Signal",
+      "hash_string": "RIHS01_f65951cb1d67828866886814c3aea4463b647eb9b62696382850748c8fa00757"
+    }
+  ]
+}
