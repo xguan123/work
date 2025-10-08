@@ -25,20 +25,17 @@ public:
 private:
     void signal_callback(const cpp_pubsub::msg::Signal::SharedPtr msg) const
     {
-        // 处理信号
+
         double processed = (msg->sine_wave * msg->square_wave >= 0) ? msg->sine_wave : 0.0;
         
-        // 发布处理后的信号
         auto processed_msg = std_msgs::msg::Float64();
         processed_msg.data = processed;
         processed_publisher_->publish(processed_msg);
         
-        // 发布原始正弦波用于可视化
         auto sine_msg = std_msgs::msg::Float64();
         sine_msg.data = msg->sine_wave;
         sine_publisher_->publish(sine_msg);
         
-        // 发布方波用于可视化
         auto square_msg = std_msgs::msg::Float64();
         square_msg.data = msg->square_wave;
         square_publisher_->publish(square_msg);
